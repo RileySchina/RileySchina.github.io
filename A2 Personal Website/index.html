@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Riley Schina Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1 id="headerLogo">Riley Schina Portfolio</h1>
+        <nav>
+            <a href="/" class="selected">Home</a>
+            <a href="visualizations.html">Visualizations</a>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="intro">
+            <h2 id="intro">Personal Introduction</h2>
+            <p>
+                My name is Riley Schina, currently an Interactive Arts and Technology student at Simon Fraser University. 
+                I work as a library assistant for the university’s Surrey campus library. 
+                My main interests are in music, board games, video games, animals, and reading.
+            </p>
+        </section>
+
+        <section aria-labelledby="education">
+            <h2 id="education">Education</h2>
+            <h3>My Formal Education</h3>
+            <ul>
+                <li>2011 to 2016: Bachelor of Mechatronics Systems Engineering (incomplete)</li>
+                <li>2016 to 2018, 2025 to present: Bachelor of Science, School of Interactive Arts and Technology</li>
+            </ul>
+
+            <h3>Important Classes</h3>
+            <ul>
+                <li>IAT 336 – Materials in Design</li>
+                <li>IAT 339 – Advanced Web Design</li>
+                <li>IAT 351 – Human Computer Interface Design</li>
+                <li>IAT 359 – Mobile Computing</li>
+                <li>IAT 410 – Advanced Game Design</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="skills">
+            <h2 id="skills">Skills</h2>
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Web Design: HTML, CSS, some JavaScript</li>
+                <li>Mobile Development: React Native</li>
+                <li>General Coding: Java, C, C#</li>
+            </ul>
+
+            <h3>Software Proficiency</h3>
+            <ul>
+                <li>Adobe Creative Suite (Photoshop, Illustrator, Premiere)</li>
+                <li>Microsoft Office (Word, Excel, Publisher)</li>
+                <li>3D Modeling (Maya, Blender, Bambu Studio)</li>
+                <li>Database Systems (Exlibris Alma)</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="experience">
+            <h2 id="experience">Experience and Projects</h2>
+
+            <h3>Work Experience</h3>
+            <ul>
+                <li>Delta Controls, 2011: Production and Assembly Worker</li>
+                <li>Various Restaurants, 2012–2014: Cook and Waiter</li>
+                <li>SFU Fraser Library, 2016–2018: Library Tech, Grade 4</li>
+                <li>SFU W.A.C. Bennett Library, 2018–2024: Library Assistant, Grade 6</li>
+                <li>SFU Fraser Library, Aug 2024–present: Library Assistant, Grade 6</li>
+            </ul>
+
+            <h3>Notable Projects</h3>
+            <ul>
+                <li>Designed and built a mobile VR headset made from wood and metal</li>
+                <li>Created a gesture glove-controlled RC car using Arduino</li>
+                <li>Developed a mobile app for scanning networks for security risks (React Native)</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="projects">
+            <h2 id="projects">Project Showcase</h2>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="./src/359MobileAppLogin.jpg" alt="Login screen of Lock&Key app" />
+                    <div class="text">Login page for Lock&Key, a mobile app made for IAT 359</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="./src/359MobileAppNavigation.jpg" alt="Navigation screen of Lock&Key app" />
+                    <div class="text">Navigation for Lock&Key</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="./src/359MobileAppScanInfo.png" alt="Scan result of networks in Lock&Key app" />
+                    <div class="text">Scan of insecure networks made by Lock&Key app</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="./src/336HeadsetFront.jpg" alt="Front view of a wooden VR headset" />
+                    <div class="text">Front view of a VR headset for an IAT 336 project</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="./src/336HeadsetSide.jpg" alt="Side view of a wooden VR headset" />
+                    <div class="text">Side view of a VR headset for an IAT 336 project</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <br />
+            <!-- Dots -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </section>
+
+        <section aria-labelledby="contact">
+            <h2 id="contact">Where to Contact Me</h2>
+            <ul>
+                <li>
+                    LinkedIn: 
+                    <a href="https://www.linkedin.com/in/riley-schina-535656121" target="_blank" rel="noopener noreferrer">
+                        riley-schina-535656121
+                    </a>
+                </li>
+                <li>
+                    GitHub: 
+                    <a href="https://github.com/RileySchina" target="_blank" rel="noopener noreferrer">
+                        github.com/RileySchina
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
