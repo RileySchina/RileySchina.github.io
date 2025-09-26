@@ -21,6 +21,9 @@ header {
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 #headerLogo {
@@ -43,6 +46,7 @@ nav a {
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.2s ease;
+    
 }
 
 nav a:hover {
@@ -93,7 +97,11 @@ li {
 
 .mySlides img {
     width: 100%;
-    vertical-align: middle;
+    height: auto;
+     max-height: 90vh; /*limits image height to 90% of viewport */
+     object-fit: contain; /* keeps aspect ratio */
+    display: block;
+    margin: 0 auto;
 }
 
 .text {
