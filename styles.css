@@ -6,6 +6,8 @@
 }
 
 body {
+    /* display:flex;
+    flex-direction: column; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f9f9f9;
@@ -56,6 +58,20 @@ nav a:hover {
 nav a.selected {
     background-color: #3498db;
     color: white;
+}
+
+/*hyperlink*/
+
+.weblink {
+    text-decoration: none;
+    color: #000;
+    font-style:italic;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+.weblink:hover {
+    color:#3498db;
 }
 
 /* Headings */
@@ -247,4 +263,23 @@ ul:last-of-type li a:hover {
             opacity: 1;
         }
     } */ 
+
+/*Smiley face styling*/
+
+    .smile-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        min-height: 90vh;
+        cursor: pointer; /*make clickable*/
+    
+    }
+
+    .smiley {
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        transition: transform 1s ease-in-out; /*smooth transition*/
+        
+    }
+  
 }

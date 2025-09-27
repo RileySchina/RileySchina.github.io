@@ -1,6 +1,20 @@
 console.log("script.js loaded");
 
 document.addEventListener("DOMContentLoaded", showPieChart);
+document.addEventListener("DOMContentLoaded", hoverSmiley);
+
+
+function hoverSmiley(){
+       const smiles = document.getElementById('smiles');
+
+        smiles.addEventListener('mouseenter', () => {
+            smiles.style.transform = 'scale(4)'; // Increase to 120% on hover
+        });
+
+        smiles.addEventListener('mouseleave', () => {
+            smiles.style.transform = 'scale(1)'; // Revert to original size on mouse leave
+        });
+}
 
 
 function showPieChart(){
