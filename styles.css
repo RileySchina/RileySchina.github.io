@@ -217,7 +217,8 @@ ul:last-of-type li a:hover {
     /*Styling for pie chart*/
     .result {
         position: relative;
-        max-width: 100%;
+        max-width: 90vh;
+        max-height: 90vh;
         display: flex;
         font-weight: bold;
         font-size: 18px;
