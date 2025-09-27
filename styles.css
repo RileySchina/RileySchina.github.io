@@ -216,7 +216,7 @@ ul:last-of-type li a:hover {
 
     /*Styling for pie chart*/
     .result {
-        width: 700px;
+        width: 100%;
         display: flex;
         font-weight: bold;
         font-size: 18px;
@@ -238,6 +238,7 @@ ul:last-of-type li a:hover {
         
     }
     .legend-color {
+        display:flex;
         width: 20px;
         height: 20px;
         border-radius: 50%;
