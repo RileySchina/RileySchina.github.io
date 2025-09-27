@@ -217,9 +217,9 @@ ul:last-of-type li a:hover {
     /*Styling for pie chart*/
     .result {
         position: relative;
-        max-width: 90vh;
+        max-width: 90vw;
         max-height: 90vh;
-        display: flex;
+        /* display: flex; */
         font-weight: bold;
         font-size: 18px;
         background-color:#fff;
@@ -231,7 +231,7 @@ ul:last-of-type li a:hover {
         gap: 20px;
     }
     .pie-chart-container {
-        width: 100%;
+        width: 90vw;
         display: flex;
         flex-direction: column;
         align-items: center;
