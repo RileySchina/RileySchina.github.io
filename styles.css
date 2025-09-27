@@ -208,6 +208,9 @@ ul:last-of-type li a:hover {
         border-radius: 5px;
         border: 1px solid #ccc;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
     }
     .pie-chart-container {
         width: 100%;
@@ -216,6 +219,7 @@ ul:last-of-type li a:hover {
         align-items: center;
         margin: 10px;
         gap: 10px;
+        
     }
     .legend-color {
         width: 20px;
@@ -228,7 +232,8 @@ ul:last-of-type li a:hover {
         display: flex;
         margin-top: 20px;
     }
-    .animate-pie-chart {
+    /* to animate the pie chart, taken out */
+    /* .animate-pie-chart {
         animation: animate-pie-chart 1s ease-in-out;
 
     }
@@ -241,5 +246,5 @@ ul:last-of-type li a:hover {
             transform: scale(1);
             opacity: 1;
         }
-    }
+    } */ 
 }
