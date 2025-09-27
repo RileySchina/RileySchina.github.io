@@ -253,6 +253,7 @@ ul:last-of-type li a:hover {
         border-radius: 50%;
         display: inline-block;
         margin-right: 10px;
+        border: 1px solid black;
     }
     .legend-item {
         display: flex;
