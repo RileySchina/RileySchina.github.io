@@ -247,11 +247,11 @@ ul:last-of-type li a:hover {
         display: block;
     }
     .legend-color {
-        display:flex;
+        /* display:flex; */
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        /* display: inline-block; */
+        display: inline-block;
         /*testing*/
         margin-right: 10px;
         border: 1px solid black;
