@@ -195,7 +195,7 @@ ul:last-of-type li a:hover {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     body {
         padding: 10px;
     }
@@ -212,88 +212,88 @@ ul:last-of-type li a:hover {
     .text {
         font-size: 14px;
         padding: 10px;
-    }
+    } */
 
-    /*Styling for pie chart*/
-    .result {
-        position: relative;
-        max-width: 100%;
-        max-height: 100%;
-        /* display: flex; */
-        font-weight: bold;
-        font-size: 18px;
-        background-color:#fff;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
-        align-items: center;
-        padding: 20px;
-        gap: 20px;
-    }
-    .pie-chart-container {
-        width: 100%;
-        max-width: 600px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-        position: relative;
-        gap: 10px;
-        
-    }
-    #pie-chart{
-        width:100% !important;
-        height: 100% !important;
-        display: block;
-    }
-    .legend-color {
-        /* display:flex; */
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        display: inline-block;
-        /*testing*/
-        margin-right: 10px;
-        border: 1px solid black;
-    }
-    .legend-item {
-        display: flex;
-        margin-top: 20px;
-    }
+/*Styling for pie chart*/
+.result {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    /* display: flex; */
+    font-weight: bold;
+    font-size: 18px;
+    background-color:#fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.pie-chart-container {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    gap: 10px;
+    
+}
+#pie-chart{
+    width:100% !important;
+    height: 100% !important;
+    display: block;
+}
+.legend-color {
+    /* display:flex; */
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    /*testing*/
+    margin-right: 10px;
+    border: 1px solid black;
+}
+.legend-item {
+    display: flex;
+    margin-top: 20px;
+}
 
 
-    /* to animate the pie chart, taken out */
-    /* .animate-pie-chart {
-        animation: animate-pie-chart 1s ease-in-out;
+/* to animate the pie chart, taken out */
+/* .animate-pie-chart {
+    animation: animate-pie-chart 1s ease-in-out;
 
+}
+@keyframes animate-pie-chart {
+    0% {
+        transform: scale(0);
+        opacity: 0;
     }
-    @keyframes animate-pie-chart {
-        0% {
-            transform: scale(0);
-            opacity: 0;
-        }
-        100% {
-            transform: scale(1);
-            opacity: 1;
-        }
-    } */ 
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+} */ 
 
 /*Smiley face styling*/
 
-    .smile-container {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        min-height: 90vh;
-        cursor: pointer; /*make clickable*/
-    
-    }
+.smile-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    cursor: pointer; /*make clickable*/
 
-    .smiley {
-        border: 1px solid #ccc;
-        border-radius: 50%;
-        transition: transform 1s ease-in-out; /*smooth transition*/
-        
-    }
+}
+
+.smiley {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    transition: transform 1s ease-in-out; /*smooth transition*/
+    
+}
   
 }
