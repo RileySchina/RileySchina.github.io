@@ -248,8 +248,8 @@ ul:last-of-type li a:hover {
     }
     .legend-color {
         display:flex;
-        width: 100px;
-        height: 100px;
+        width: 20px;
+        height: 20px;
         border-radius: 50%;
         display: inline-block;
         margin-right: 10px;
