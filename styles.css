@@ -252,6 +252,7 @@ ul:last-of-type li a:hover {
         height: 20px;
         border-radius: 50%;
         /* display: inline-block; */
+        /*testing*/
         margin-right: 10px;
         border: 1px solid black;
     }
