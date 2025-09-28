@@ -195,7 +195,7 @@ ul:last-of-type li a:hover {
 }
 
 /* Responsive */
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     body {
         padding: 10px;
     }
@@ -212,7 +212,8 @@ ul:last-of-type li a:hover {
     .text {
         font-size: 14px;
         padding: 10px;
-    } */
+    }
+}
 
 /*Styling for pie chart*/
 .result {
@@ -286,7 +287,7 @@ ul:last-of-type li a:hover {
     align-items: center;
     min-height: 90vh;
     cursor: pointer; /*make clickable*/
-
+    display: flex;
 }
 
 .smiley {
@@ -296,4 +297,4 @@ ul:last-of-type li a:hover {
     
 }
   
-}
+
