@@ -261,9 +261,7 @@ ul:last-of-type li a:hover {
         margin-top: 20px;
     }
 
-    .loltest {
-        padding: 100px;
-    }
+
     /* to animate the pie chart, taken out */
     /* .animate-pie-chart {
         animation: animate-pie-chart 1s ease-in-out;
