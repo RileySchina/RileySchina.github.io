@@ -12,7 +12,7 @@ function hoverSmiley(){
        const smiles = document.getElementById('smiles');
 
         smiles.addEventListener('mouseenter', () => {
-            smiles.style.transform = 'scale(4)'; // Increase to 400% on hover
+            smiles.style.transform = 'scale(4)'; // Increase to 400% on hover, I thought it was funny
         });
 
         smiles.addEventListener('mouseleave', () => {
@@ -25,8 +25,8 @@ function drawPieChart() {
     console.log("Drawing pie chart...");
 
     const sliceA = { size: 59.8, color: 'lightblue' }; //households with dogs in millions
-    const sliceB = { size: 42.2, color: 'lightgreen' }; //households with dogs in millions
-    const sliceC = { size: 11.9, color: 'lightyellow' }; //households with dogs in millions
+    const sliceB = { size: 42.2, color: 'lightgreen' }; //households with cats in millions
+    const sliceC = { size: 11.9, color: 'lightyellow' }; //households with other pets in millions
 
     const values = [sliceA.size, sliceB.size, sliceC.size]; //values stored to then calculate
     const total = values.reduce((acc, val) => acc + val, 0);
@@ -59,6 +59,8 @@ function drawPieChart() {
         );
         ctx.closePath();
 
+        //extended if else statement. if = 0, sliceA : if else = 1, sliceB, else = other result, sliceC
+        //simple but scalable way to add more options to logic
         ctx.fillStyle = index === 0 ? sliceA.color : index === 1 ? sliceB.color : sliceC.color;
         ctx.fill();
 
@@ -67,6 +69,7 @@ function drawPieChart() {
 
     // Update legend
     const legend = document.getElementById("pie-chart-legend");
+    //Inserts a legend into the page
     legend.innerHTML = `
         <div class="legend-item">
             <div class="legend-color" style="background-color:${sliceA.color}"></div>

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+    <!--Main navigation and header-->
     <header>
         <h1 id="headerLogo">Riley Schina Portfolio</h1>
         <nav>
@@ -16,7 +17,8 @@
     </header>
 
     <main>
-        <section aria-labelledby="intro">
+        <!--section tags added on suggestion of making the site more accessible-->
+        <section aria-labelledby="intro"> 
             <h2 id="intro">Personal Introduction</h2>
             <p>
                 My name is Riley Schina, currently an Interactive Arts and Technology student at Simon Fraser University. 
@@ -85,7 +87,7 @@
             <h2 id="projects">Project Showcase</h2>
 
             <div class="slideshow-container">
-
+                <!--all of the photos for the slides are added here, the javascript then actively makes only 1 visible at a time and swaps between them-->
                 <div class="mySlides fade">
                     <div class="numbertext">1 / 5</div>
                     <img src="./src/359MobileAppLogin.jpg" alt="Login screen of Lock&Key app" />
@@ -116,13 +118,13 @@
                     <div class="text">Side view of a VR headset for an IAT 336 project</div>
                 </div>
 
-                <!-- Next and previous buttons -->
+                <!-- Next and previous buttons, update calls to the JavaScript -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
 
             <br />
-            <!-- Dots -->
+            <!-- Dots, alternative update call for the JavaScript -->
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
