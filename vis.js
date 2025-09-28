@@ -72,6 +72,7 @@ function drawPieChart() {
     //Inserts a legend into the page
     legend.innerHTML = `
         <div class="legend-item">
+            <div class="loltest"> asdf </div>
             <div class="legend-color" style="background-color:${sliceA.color}"></div>
             <div class="legend-label">Houses with Dogs: ${sliceA.size} million ~ ${(sliceA.size / total * 100).toFixed(2)}%</div>
         </div>
