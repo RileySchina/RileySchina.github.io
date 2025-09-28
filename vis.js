@@ -29,7 +29,7 @@ function drawPieChart() {
     const sliceC = { size: 11.9, color: 'lightyellow' }; //households with other pets in millions
 
     const values = [sliceA.size, sliceB.size, sliceC.size]; //values stored to then calculate
-    const total = values.reduce((acc, val) => acc + val, 0);
+    const total = values.reduce((acc, val) => acc + val, 0); 
 
     const canvas = document.getElementById("pie-chart");
     const ctx = canvas.getContext("2d");
